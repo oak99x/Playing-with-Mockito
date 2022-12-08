@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.in28minutes.springboot.controller.StudentControllerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.218 s <<< FAILURE! - in com.in28minutes.springboot.controller.StudentControllerTest
+retrieveDetailsForCourse  Time elapsed: 0.843 s  <<< ERROR!
+org.json.JSONException: Unterminated object at character 40 of {id:Course1,name:Spring,description:10 Steps}
+	at com.in28minutes.springboot.controller.StudentControllerTest.retrieveDetailsForCourse(StudentControllerTest.java:63)
+
